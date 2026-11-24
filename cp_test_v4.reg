@@ -1,0 +1,10 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\TestVendor\ContentAwarenessCheck]
+"DisplayName"="Content Awareness Test Policy"
+"InstallPath"="C:\\Program Files\\TestVendor\\Agent"
+"Enabled"=dword:00000001
+"Flags"=hex:01,00,02,00,0a,00,00,00
+
+[HKEY_CURRENT_USER\Software\TestVendor\ContentAwarenessCheck\Settings]
+"Mode"="Strict"
+"RetryCount"=dword:00000003
